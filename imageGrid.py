@@ -25,6 +25,7 @@ def image_grid(imgs, rows, cols):
     assert len(imgs) == rows*cols
 
     w, h = imgs[0].size
+    #creting a new image as Grid with size of cols and rows
     grid = Image.new('RGB', size=(cols*w, rows*h))
 
     for i, img in enumerate(imgs):
