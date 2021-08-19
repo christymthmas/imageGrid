@@ -4,7 +4,7 @@ from PIL import Image
 from time import sleep
 
 
-    
+    AX
 def image_grid(imgs, rows, cols):
 
     print("\n\n-------Generating Grid-------\n")
