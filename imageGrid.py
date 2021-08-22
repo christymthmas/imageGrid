@@ -37,7 +37,7 @@ def image_grid(imgs, rows, cols):
     print("""\nImage Grid will be available at "{}"\n\n
 ---------Task-Completed---------\n\n""".format(path))
 
-.
+
 
 if __name__ == "__main__":
 
